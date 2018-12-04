@@ -47,6 +47,13 @@ function yaamp_get_algos()
 		'veltor',
 		'velvet',
 		'yescrypt',
+		'yescryptR16',
+		'yescryptR32',
+		'yespower',
+		'yespowerR8',
+		'yespowerR16',
+		'yespowerR24',
+		'yespowerR32',	
 		'whirlpool',
 		'zr5',
 	);
@@ -152,6 +159,13 @@ function getAlgoColors($algo)
 		'velvet'	=> '#aac0cc',
 		'whirlpool'	=> '#d0e0e0',
 		'yescrypt'	=> '#e0d0e0',
+		'yescryptR16'	=> '#e2d0e2',
+		'yescryptR32'	=> '#e2d0d2',
+		'yespower' 	=> '#e2d0d2',
+		'yespowerR8' 	=> '#e2d0d2',
+		'yespowerR16' 	=> '#e2d0d2',
+		'yespowerR24' 	=> '#e2d0d2',
+		'yespowerR32' 	=> '#e2d0d2',	
 		'zr5'		=> '#d0b0d0',
 
 		'MN'		=> '#ffffff', // MasterNode Earnings
@@ -214,6 +228,13 @@ function getAlgoPort($algo)
 		'veltor'	=> 5034,
 		'velvet'	=> 6133,
 		'yescrypt'	=> 6233,
+		'yescryptR16'	=> 6333,
+		'yescryptR32'	=> 6343,
+		'yespower'	=> 6234,
+		'yespowerR8'	=> 6235,
+		'yespowerR16'	=> 6236,
+		'yespowerR24'	=> 6237,
+		'yespowerR32'	=> 6238,
 		'bastion'	=> 6433,
 	);
 
