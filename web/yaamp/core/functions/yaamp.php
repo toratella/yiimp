@@ -214,6 +214,11 @@ function getAlgoColors($algo)
 		'yescrypt'	=> '#e0d0e0',
 		'yescryptR16'	=> '#e2d0e2',
 		'yescryptR32'	=> '#e2d0d2',
+		'yespower' 	=> '#e2d0d2',
+		'yespowerR8' 	=> '#e2d0d2',
+		'yespowerR16' 	=> '#e2d0d2',
+		'yespowerR24' 	=> '#e2d0d2',
+		'yespowerR32' 	=> '#e2d0d2',
 		'zr5'		=> '#d0b0d0',
 
 		'MN'		=> '#ffffff', // MasterNode Earnings
