@@ -72,6 +72,11 @@ function yaamp_get_algos()
 		'yescrypt',
 		'yescryptR16',
 		'yescryptR32',
+		'yespower',
+		'yespowerR8',
+		'yespowerR16',
+		'yespowerR24',
+		'yespowerR32',
 		'whirlpool',
 		'zr5',
 	);
