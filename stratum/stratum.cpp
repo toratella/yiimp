@@ -209,7 +209,7 @@ YAAMP_ALGO g_algos[] =
 	{"whirlpoolx", whirlpoolx_hash, 1, 0, 0},
 
 	{"", NULL, 0, 0},
-}
+};
 
 YAAMP_ALGO *g_current_algo = NULL;
 
