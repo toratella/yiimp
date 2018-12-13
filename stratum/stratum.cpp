@@ -155,6 +155,8 @@ YAAMP_ALGO g_algos[] =
 	{"quark", quark_hash, 1, 0, 0},
 	{"nist5", nist5_hash, 1, 0, 0},
 	{"qubit", qubit_hash, 1, 0, 0},
+	{"groestl", groestl_hash, 1, 0, 0,
+	{"groestl", groestl_hash, 0x100, 0, sha256_hash_hex }, /* soferox */
 	{"groestl", groestl_hash, 0x100, 0, sha256_hash_hex }, /* groestlcoin */
 	{"dmd-gr", groestl_hash, 0x100, 0, 0}, /* diamond (double groestl) */
 	{"myr-gr", groestlmyriad_hash, 1, 0, 0}, /* groestl + sha 64 */
